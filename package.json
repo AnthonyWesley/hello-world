@@ -1,0 +1,27 @@
+{
+  "name": "hellowoldnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "build": "prisma generate && tsup src",
+    "start": "node dist/server.js",
+    "vercel-build": "prisma generate",
+    "postinstall": "prisma generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.4.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "prisma": "^6.4.1",
+    "tsup": "^8.3.6",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

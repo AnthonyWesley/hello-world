@@ -1,0 +1,4 @@
+GET http://localhost:3000/hello
+
+###
+GET https://hello-world-five-tau-90.vercel.app/hello
